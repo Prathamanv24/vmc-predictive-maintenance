@@ -7,10 +7,10 @@ import os
 
 # --- Simple user login system ---
 USERS = {
-    "companyA": "pass123",
-    "companyB": "vmc456",
-    "companyC": "maint789",
-    "companyD": "tool321",
+    "Prathamesh": "pass123",
+    "Prateek": "vmc456",
+    "Rohan": "maint789",
+    "Aslam": "tool321",
     "companyE": "life999"
 }
 
