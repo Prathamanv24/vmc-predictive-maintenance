@@ -3,6 +3,49 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, date
 from pathlib import Path
+import os
+
+# --- Simple user login system ---
+USERS = {
+    "companyA": "pass123",
+    "companyB": "vmc456",
+    "companyC": "maint789",
+    "companyD": "tool321",
+    "companyE": "life999"
+}
+
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+    st.session_state.company = None
+
+if not st.session_state.logged_in:
+    st.title("🔑 Company Login")
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login"):
+        if username in USERS and USERS[username] == password:
+            st.session_state.logged_in = True
+            st.session_state.company = username
+            st.success(f"✅ Logged in as {username}")
+        else:
+            st.error("❌ Invalid username or password")
+    st.stop()
+
+# --- Set company-specific folder ---
+COMPANY = st.session_state.company
+DATA_FOLDER = os.path.join("data", COMPANY)
+os.makedirs(DATA_FOLDER, exist_ok=True)
+
+# Update your file paths to save under this company folder
+FILES = {
+    "shift": os.path.join(DATA_FOLDER, "shift.csv"),
+    "production": os.path.join(DATA_FOLDER, "production.csv"),
+    "checklist": os.path.join(DATA_FOLDER, "checklist.csv"),
+    "problems": os.path.join(DATA_FOLDER, "problems.csv"),
+    "tools": os.path.join(DATA_FOLDER, "tools.csv"),
+    "logbook": os.path.join(DATA_FOLDER, "logbook.csv"),
+}
 
 # -----------------------------
 # App Config
