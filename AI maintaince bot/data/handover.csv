@@ -1,0 +1,10 @@
+timestamp,shift_date,shift,operator,machine_id,prev_parts_done,prev_avg_cycle,prev_notes,incoming_notes
+2025-08-25T11:06:33,2025-08-25,A,Prathamesh,VMC-101,100,102.0,nothing,nothintg
+2025-08-25T11:16:21,2025-08-25,B,Prateek,VMC-101,90,102.99999999999994,nothing,nothintg
+2025-09-04T22:41:11,2025-09-04,A,,VMC-101,1,0.1,f,
+2025-09-04T22:41:51,2025-09-05,C,ff,VMC-101,1,0.1,f,
+2025-09-17T14:03:02,2025-09-17,A,aslam,VMC-102,50,1.5,"all ok
+","nope
+"
+2025-09-17T14:38:37,2025-09-17,A,rohan,VMC-105,100,2.5,no problem,ok
+2025-09-24T13:58:27,2025-09-24,B,aslam,VMC-102,500,2.5,ok,ok

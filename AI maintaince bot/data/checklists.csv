@@ -1,0 +1,15 @@
+timestamp,shift_date,shift,operator,machine_id,phase,power_ok,tooling_setup_ok,workpiece_setup_ok,coolant_ok,lubrication_ok,cleanliness_ok,safety_ok,home_positions_ok,program_ok,spindle_ok,air_ok,tool_wear_check,dimension_check,coolant_topup,chip_cleaning,machine_condition,program_logs,shutdown_ok,faults_reported,notes
+2025-08-25T11:07:00,2025-08-25,A,Prathamesh,VMC-101,before,True,True,True,True,True,True,True,True,True,True,True,,,,,,,,,
+2025-08-25T11:16:42,2025-08-25,B,Prateek,VMC-101,before,True,True,True,True,True,True,True,True,True,True,True,,,,,,,,,"everything works fine
+"
+2025-08-25T11:18:36,2025-08-25,B,Prateek,VMC-101,after,,,,,,,,,,,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"everything is good
+"
+2025-09-04T22:41:26,2025-09-04,A,,VMC-101,before,True,True,True,True,True,True,True,True,True,True,True,,,,,,,,,
+2025-09-17T14:03:39,2025-09-17,A,aslam,VMC-102,before,True,True,True,True,True,True,False,False,True,True,False,,,,,,,,,"problem in the machine
+"
+2025-09-17T14:38:50,2025-09-17,A,rohan,VMC-105,before,True,True,True,True,True,True,False,False,False,True,False,,,,,,,,,ok
+2025-09-24T13:58:40,2025-09-24,B,aslam,VMC-102,before,True,True,True,True,True,True,True,True,True,True,True,,,,,,,,,ok
+2025-09-24T14:04:55,2025-09-24,A,Prateek,VMC-101,before,True,True,True,False,False,False,False,False,False,False,False,,,,,,,,,OK
+2025-09-24T14:08:26,2025-09-24,A,Prateek,VMC-101,after,,,,,,,,,,,,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,
+2025-09-24T14:25:23,2025-09-24,C,Prathamesh,VMC-101,before,True,True,True,True,False,True,False,False,False,False,False,,,,,,,,,
+2025-09-25T15:11:20,2025-09-25,B,,VMC-101,before,True,True,False,False,False,False,False,False,False,True,True,,,,,,,,,

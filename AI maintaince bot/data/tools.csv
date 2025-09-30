@@ -1,0 +1,4 @@
+timestamp,shift_date,shift,operator,machine_id,tool_id,tool_name,expected_minutes,minutes_used_today,minutes_used_total,expected_cycles,cycles_used_today,cycles_used_total,status,notes,usage_hours,max_hours
+2025-08-25T11:20:58,2025-08-25,B,Prateek,VMC-101,T22-A,m\M8 drill,120.0,78.0,78.0,200.0,180.0,180.0,OK,ok,,
+2025-09-17T14:32:19,,,,,VMC-102,,,,,,,,OK,ok,8.0,10.0
+2025-09-17T14:40:42,2025-09-17,A,rohan,VMC-105,T13,M8 Drill bit,500.0,205.0,205.0,500.0,82.0,82.0,OK,,,

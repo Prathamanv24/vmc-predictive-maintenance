@@ -1,0 +1,8 @@
+timestamp,shift_date,shift,operator,machine_id,job_id,material,parts_done,avg_cycle_time_min,scrap_count,notes
+2025-08-25T11:07:46,2025-08-25,A,Prathamesh,VMC-101,CB-Ring,Aluminium,0,5.1,5,
+2025-08-25T11:17:05,2025-08-25,B,Prateek,VMC-101,CB-Ring,Aluminium,98,5.1,10,
+2025-09-17T14:04:57,2025-09-17,A,aslam,VMC-102,73538,steel,500,2.5,25,have completed my job with 25 rework done.
+2025-09-17T14:39:15,2025-09-17,A,rohan,VMC-105,1122323,Aluminium,50,2.5,5,nothing
+2025-09-24T13:59:21,2025-09-24,A,,VMC-101,CB-RING,Aluminium,200,2.5,0,OK
+2025-09-24T14:05:30,2025-09-24,A,Prateek,VMC-101,101,Aluminium,100,1.5,0,OK
+2025-09-25T15:12:40,2025-09-25,B,PRATHAM,VMC-101,101,Aluminium,100,1.5,0,OK
